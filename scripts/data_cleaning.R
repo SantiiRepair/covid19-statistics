@@ -1,6 +1,6 @@
 library(dplyr)
 
-data <- read.csv("data/covid19_data.csv")
+data <- read.csv("../data/covid19_data.csv")
 
 data_clean <- data %>%
 
@@ -8,4 +8,4 @@ data_clean <- data %>%
 
   mutate(date = as.Date(date, "%Y-%m-%d"))
 
-write.csv(data_clean, "data/covid19_data_clean.csv", row.names = FALSE)
+write.csv(data_clean, "../data/covid19_data_clean.csv", row.names = FALSE)

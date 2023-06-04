@@ -1,6 +1,6 @@
 library(ggplot2)
 
-data_clean <- read.csv("data/covid19_data_clean.csv")
+data_clean <- read.csv("../data/covid19_data_clean.csv")
 
 ggplot(data_clean, aes(x = date, y = cases)) +
 
