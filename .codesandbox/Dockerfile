@@ -5,4 +5,4 @@ RUN apt-get update && apt-get install -y r-base r-base-core r-base-dev \
     libcurl4-openssl-dev libssl-dev && \
     rm -r /var/lib/apt/lists/*
 
-RUN R -e "install.packages(c('httr', 'jsonlite'), repos='https://cran.rstudio.com/')"
+RUN R -e "install.packages(c('httr', 'jsonlite', 'dplyr'), repos='https://cran.rstudio.com/')"
