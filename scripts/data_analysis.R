@@ -1,5 +1,4 @@
 library(httr)
-
 library(jsonlite)
 
 url <- "https://disease.sh/v3/covid-19/historical/Venezuela?lastdays=all"
