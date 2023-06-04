@@ -14,4 +14,4 @@ data_df <- data.frame(date = names(data$timeline$cases),
 
                       deaths = unlist(data$timeline$deaths))
 
-write.csv(data_df, "data/covid19_data_api.csv", row.names = FALSE)
+write.csv(data_df, "data/covid19_data.csv", row.names = FALSE)
