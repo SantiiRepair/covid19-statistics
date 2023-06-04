@@ -1,6 +1,6 @@
 library(dplyr)
 
-data <- read.csv("data/covid19_data_api.csv")
+data <- read.csv("data/covid19_data.csv")
 
 data_clean <- data %>%
 
